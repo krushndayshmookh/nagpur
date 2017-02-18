@@ -7,12 +7,12 @@ $(document).ready(function () {
 	
 	
 	
-	$(".screen-unit").css("width", screen.width);
-	$(".screen-unit").css("height", screen.height);
+	$(".screen-unit").css("width", $(window).width());
+	$(".screen-unit").css("height", $(window).height());
 	
 	
 
 }); // end of document ready
- // end of jQuery name space
 
 
+AOS.init();
