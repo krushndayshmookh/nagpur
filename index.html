@@ -96,6 +96,12 @@
 					<div class="col s12 center" data-aos="zoom-in" data-aos-delay="600">
 						<a id="screen-unit-2-btn" class="btn btn-floating white black-text screen-unit-scroll-btn"><i class="material-icons black-text">keyboard_arrow_down</i></a>
 					</div>
+					
+					
+					<div class="col s12 center" data-aos="zoom-in" data-aos-delay="600">
+						<span id="demo" class="white-text"></span>
+					</div>
+					
 
 				</div>
 			</div>
@@ -227,6 +233,7 @@
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>
 	<script src="js/aos.js"></script>
+	<script src="js/t.js"></script>
 	<script src="js/init.js"></script>
 	<script>
 		$('.screen-unit-scroll-btn').on('click', function(e) {
@@ -235,6 +242,15 @@
 			$('html, body').animate({
 				scrollTop: scrollH
 			}, 1200);
+		});
+
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('#demo').t('Click the <del>button</del> arrow button to continue...', {
+				speed: 120,
+				speed_vary: true
+			});
 		});
 
 	</script>
