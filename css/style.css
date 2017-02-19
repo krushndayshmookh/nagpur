@@ -66,20 +66,61 @@ footer.page-footer {
 
 
 #screen-unit-1 {
-	background: url("../images/bg1.png");
+	background: url("../images/bgnag.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 #screen-unit-2 {
-	background: url("../images/bg2.png");
+	background: #f9d21d;
 }
-#screen-unit-3 {
+
+/*#screen-unit-3 {
 	background: url("../images/bg3.png");
-}
+}*/
+
 #screen-unit-4 {
-	background: url("../images/bg4.png");
+	background: url("../images/bg4.png") ;
+}
+
+#screen-unit-5 {
+  background: url("../images/bg5.png") ;
+}
+
+
+#dark-bg-layer {
+  background: rgba(0,0,0,0.55);
+  height: 100%;
+  width: 100%;
+
+}
+
+#intro-head-box {
+  border: white solid 5px;
+}
+#head-box {
+  border: white solid 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#white-box {
+  /*border: white solid 3px;*/
+  margin: 1px;
+  
+}
+#black-box {
+  border: black solid 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 
 
 
+body {
+  background: black;
+}
 
-
+#image-text {
+  z-index: 2;
+  margin-top: -300px;
+}
